@@ -1,0 +1,21 @@
+.header {
+    max-width: 100%;
+}
+
+#social-header {
+    height: 40px;
+    background-color: #000;
+}
+
+#main-header {
+    height: 100px;
+    background-color: #030049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > .logo {
+        max-height: 80px;
+        max-width: 80px;
+    }
+}
