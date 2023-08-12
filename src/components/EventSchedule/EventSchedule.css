@@ -1,0 +1,5 @@
+.event > .datetime {
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+}

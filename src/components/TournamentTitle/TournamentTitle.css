@@ -1,0 +1,21 @@
+.tournament-title {
+    width: 100%;
+    background-color: #eef7ff;
+    border-radius: 8px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    > img {
+        width: 18px;
+        height: 12px;
+    }
+
+    > h2 {
+        line-height: 14px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}

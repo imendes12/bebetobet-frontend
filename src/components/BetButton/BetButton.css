@@ -1,0 +1,22 @@
+.event > .odd {
+    padding: 0 5px;
+
+    > button {
+        width: 100%;
+        height: 40px;
+        background-color: #030049;
+        border: none;
+        border-radius: 8px;
+        font-size: 12px;
+        color: #fff;
+
+        > .value {
+            color: #f3d113;
+            font-weight: bold;
+        }
+        > .bet {
+            color: #f2f2f2;
+            font-size: 10px;
+        }
+    }
+}
