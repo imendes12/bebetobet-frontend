@@ -1,4 +1,5 @@
 import Banner from './components/Banner';
+import { Footer } from './components/Footer';
 import List from './components/List';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
             <div className='content list-container'>
                 <List />
             </div>
+            <Footer />
         </div>
     );
 }
