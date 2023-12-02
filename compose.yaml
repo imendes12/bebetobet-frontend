@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: bebetobet-frontend-app
+    build:
+      context: .
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    ports:
+      - 3000:3000
